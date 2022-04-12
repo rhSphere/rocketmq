@@ -32,6 +32,7 @@ export JAVA_HOME
 export JAVA="$JAVA_HOME/bin/java"
 export BASE_DIR=$(dirname $0)/..
 export CLASSPATH=.:${BASE_DIR}/conf:${CLASSPATH}
+export NAMESRV_ADDR=127.0.0.1:9876
 
 #===========================================================================================
 # JVM Configuration
